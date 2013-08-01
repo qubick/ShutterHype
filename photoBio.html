@@ -1,0 +1,118 @@
+<html>
+    <head>
+        <title>Bio Detail</title>
+    <link rel="stylesheet" href="examples.css">
+    <style>
+        .circular {
+            width: 80px;
+            height: 80px;
+            border-radius: 40px;
+            -webkit-border-radius: 40px;
+            -moz-border-radius: 40px;
+            background: url(/Users/qubick/Desktop/photofinder_source/photofinder/profilePic.png) no-repeat;
+        }
+        
+    </style>
+    
+        <script type='text/javascript'>
+            function showpic(src, w, h, alt, aln, pw, ph, bw, bh) {
+                // fit a graphic within the current window or frame
+                // showpic provided by [url]www.DragonQuest.com[/url]
+                if (src==null)
+                return;
+                
+                var iw, ih			// Set inner width and height for NS and Explorer
+                if (window.innerWidth==null) {
+                    iw=document.body.clientWidth;
+                    ih=document.body.clientHeight;
+                } else {
+                    iw=window.innerWidth;ih=window.innerHeight
+                }
+                
+                if (w==null) w=iw; 				// width
+                if(h==null)  h=ih;				// height
+                if(alt==null) alt="Picture";		// alt text
+                if(aln==null) aln="left";			// alignment
+                if(pw==null) pw=100;			// percentage width
+                if(ph==null) ph=100;			// percentage height
+                if(bw==null) bw=0;			// border width
+                if(bh==null) bh=0;			// border height
+                
+                var sw=Math.round((iw-bw)*pw/100);
+                var sh=Math.round((ih-bh)*ph/100);
+                
+                if ((w*sh)/(h*sw)<1) sw=Math.round(w*sh/h);
+                else sh=Math.round(h*sw/w);
+                document.write('<img src="'+src+'" alt="'+alt+'" width="'+sw+'" height="'+sh+'" align="'+aln+'">');
+            }
+            </script>
+        
+        <style type="text/css">
+            div#page {
+                width:100%;
+                margin:0 auto;
+                padding:5px;
+                text-align:center;
+            }
+            div#content {
+                width:100%;
+                margin: 0 auto;
+                font-family:Georgia, 'Times New Roman', Times, serif;
+                font-size: 1em;
+            }
+            </style>
+        
+    </head>
+    <body bgcolor="#393939">
+        <div class=image-wrap>
+            <table border=0>
+                <tr>
+                    <td rowspan=2>
+                        <img src="/Users/qubick/Desktop/photofinder_source/photofinder/profilePic.png" class="circular">
+                    </td>
+                    <td height="40px" valign="bottom">
+                        <font color="#92CCC0" size="6px" face="Armata"> Hunter Tompson </font><br>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <font color="#ffffff" size="4px"> Starts at $2300 </font>
+                    </td>
+                </tr>
+            </table>
+        </div>
+        <div>
+            <font color="#000000" size="2px">
+            Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting.
+        </div>
+        <div>
+            <input type="button" value="BOOK" bgcolor="#92CCC0">
+            <input type="button" value="CONTACT">
+        </div>
+        
+        
+        <!--div align="center">
+            <div id="page">
+                <div id="content">
+                    <a href="/Users/qubick/Desktop/photofinder_source/photofinder/wedding18.png">
+                        <script type='text/javascript'>
+                            showpic ("/Users/qubick/Desktop/photofinder_source/photofinder/wedding18.png", 600, 800,"collage", "center")
+                            </script>
+                    </a></div>
+            </div-->
+        <div align="center">
+            <a href="/Users/qubick/Desktop/photofinder_source/photofinder/wedding18.png" target="big">
+                <img src="/Users/qubick/Desktop/photofinder_source/photofinder/wedding18.png" class="thumbnail">
+                    </a>
+            <a href="/Users/qubick/Desktop/photofinder_source/photofinder/wedding19.png" target="big">
+                <img src="/Users/qubick/Desktop/photofinder_source/photofinder/wedding19.png" class="thumbnail">
+                    </a>
+            <a href="/Users/qubick/Desktop/photofinder_source/photofinder/wedding3.png" target="big">
+                <img src="/Users/qubick/Desktop/photofinder_source/photofinder/wedding3.png" class="thumbnail">
+                    </a>
+            <a href="/Users/qubick/Desktop/photofinder_source/photofinder/wedding4.png" target="big">
+                <img src="/Users/qubick/Desktop/photofinder_source/photofinder/wedding4.png" class="thumbnail">
+                    </a>
+        </div>
+    </body>
+</html>

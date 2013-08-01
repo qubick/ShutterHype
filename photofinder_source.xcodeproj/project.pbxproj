@@ -6,11 +6,100 @@
 	objectVersion = 46;
 	objects = {
 
+/* Begin PBXFileReference section */
+		A6D82A3717A47D2700965C50 /* photofinder.html */ = {isa = PBXFileReference; lastKnownFileType = text.html; path = photofinder.html; sourceTree = "<group>"; };
+		A6D82A3B17A47D7500965C50 /* photoHeader.html */ = {isa = PBXFileReference; lastKnownFileType = text.html; path = photoHeader.html; sourceTree = "<group>"; };
+		A6D82A3C17A47DF000965C50 /* shutterhype_logo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = shutterhype_logo.png; path = photofinder/shutterhype_logo.png; sourceTree = "<group>"; };
+		A6D82A3F17A47EBF00965C50 /* photoMain.html */ = {isa = PBXFileReference; lastKnownFileType = text.html; path = photoMain.html; sourceTree = "<group>"; };
+		A6D82A4117A47FED00965C50 /* photoBio.html */ = {isa = PBXFileReference; lastKnownFileType = text.html; path = photoBio.html; sourceTree = "<group>"; };
+		A6D82A4217A47FFA00965C50 /* photoBig.html */ = {isa = PBXFileReference; lastKnownFileType = text.html; path = photoBig.html; sourceTree = "<group>"; };
+		A6D82A4317A4804200965C50 /* photoDetail.html */ = {isa = PBXFileReference; lastKnownFileType = text.html; path = photoDetail.html; sourceTree = "<group>"; };
+		A6D82A4417A481A500965C50 /* sample.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = sample.png; path = photofinder/sample.png; sourceTree = "<group>"; };
+		A6D82A4517A487A200965C50 /* logo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = logo.png; path = photofinder/logo.png; sourceTree = "<group>"; };
+		A6D82A4617A48B7B00965C50 /* photoSearch.html */ = {isa = PBXFileReference; lastKnownFileType = text.html; path = photoSearch.html; sourceTree = "<group>"; };
+		A6D82A4717A5F5D200965C50 /* wedding1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = wedding1.png; path = photofinder/wedding1.png; sourceTree = "<group>"; };
+		A6D82A4817A5F5D200965C50 /* wedding2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = wedding2.png; path = photofinder/wedding2.png; sourceTree = "<group>"; };
+		A6D82A4917A5F5D200965C50 /* wedding3.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = wedding3.png; path = photofinder/wedding3.png; sourceTree = "<group>"; };
+		A6D82A4A17A5F5D200965C50 /* wedding4.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = wedding4.png; path = photofinder/wedding4.png; sourceTree = "<group>"; };
+		A6D82A4B17A5F5D200965C50 /* wedding5.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = wedding5.png; path = photofinder/wedding5.png; sourceTree = "<group>"; };
+		A6D82A4C17A5F5D200965C50 /* wedding6.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = wedding6.png; path = photofinder/wedding6.png; sourceTree = "<group>"; };
+		A6D82A4D17A5F5D200965C50 /* wedding7.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = wedding7.png; path = photofinder/wedding7.png; sourceTree = "<group>"; };
+		A6D82A4E17A5F5D200965C50 /* wedding8.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = wedding8.png; path = photofinder/wedding8.png; sourceTree = "<group>"; };
+		A6D82A4F17A5F89C00965C50 /* pkgd.min.js */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.javascript; path = pkgd.min.js; sourceTree = "<group>"; };
+		A6D82A5017A61A3400965C50 /* profilePic.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = profilePic.png; path = photofinder/profilePic.png; sourceTree = "<group>"; };
+		A6D82A5117A75F1200965C50 /* gallery.html */ = {isa = PBXFileReference; lastKnownFileType = text.html; path = gallery.html; sourceTree = "<group>"; };
+		A6D82A5217A7601B00965C50 /* img_data.html */ = {isa = PBXFileReference; lastKnownFileType = text.html; path = img_data.html; sourceTree = "<group>"; };
+		A6D82A5317A766AE00965C50 /* examples.css */ = {isa = PBXFileReference; lastKnownFileType = text.css; path = examples.css; sourceTree = "<group>"; };
+		A6D82A5417A7687800965C50 /* require-js.js */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.javascript; path = "require-js.js"; sourceTree = "<group>"; };
+		A6D82A5817A76DA000965C50 /* masonry.pkgd.min.js */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.javascript; path = masonry.pkgd.min.js; sourceTree = "<group>"; };
+		A6D82A5917A76E8A00965C50 /* photoCascade.html */ = {isa = PBXFileReference; lastKnownFileType = text.html; path = photoCascade.html; sourceTree = "<group>"; };
+		A6D82A5A17A773C000965C50 /* basic-layout.js */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.javascript; path = "basic-layout.js"; sourceTree = "<group>"; };
+		A6D82A5B17A7758A00965C50 /* masonry.js */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.javascript; path = masonry.js; sourceTree = "<group>"; };
+		A6D82A5C17A7787C00965C50 /* wedding9.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = wedding9.png; path = photofinder/wedding9.png; sourceTree = "<group>"; };
+		A6D82A5D17A7787C00965C50 /* wedding10.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = wedding10.png; path = photofinder/wedding10.png; sourceTree = "<group>"; };
+		A6D82A5E17A7787C00965C50 /* wedding11.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = wedding11.png; path = photofinder/wedding11.png; sourceTree = "<group>"; };
+		A6D82A5F17A7787C00965C50 /* wedding12.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = wedding12.png; path = photofinder/wedding12.png; sourceTree = "<group>"; };
+		A6D82A6017A7787C00965C50 /* wedding13.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = wedding13.png; path = photofinder/wedding13.png; sourceTree = "<group>"; };
+		A6D82A6117A7787C00965C50 /* wedding14.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = wedding14.png; path = photofinder/wedding14.png; sourceTree = "<group>"; };
+		A6D82A6217A7787C00965C50 /* wedding15.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = wedding15.png; path = photofinder/wedding15.png; sourceTree = "<group>"; };
+		A6D82A6317A7787C00965C50 /* wedding16.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = wedding16.png; path = photofinder/wedding16.png; sourceTree = "<group>"; };
+		A6D82A6417A7787C00965C50 /* wedding17.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = wedding17.png; path = photofinder/wedding17.png; sourceTree = "<group>"; };
+		A6D82A6517A7787C00965C50 /* wedding18.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = wedding18.png; path = photofinder/wedding18.png; sourceTree = "<group>"; };
+		A6D82A6917A793A200965C50 /* wedding19.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = wedding19.png; path = photofinder/wedding19.png; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
 /* Begin PBXGroup section */
 		A6D82A3017A47CF700965C50 = {
 			isa = PBXGroup;
 			children = (
+				A6D82A5B17A7758A00965C50 /* masonry.js */,
+				A6D82A5A17A773C000965C50 /* basic-layout.js */,
+				A6D82A5917A76E8A00965C50 /* photoCascade.html */,
+				A6D82A5817A76DA000965C50 /* masonry.pkgd.min.js */,
+				A6D82A5417A7687800965C50 /* require-js.js */,
+				A6D82A5317A766AE00965C50 /* examples.css */,
+				A6D82A5217A7601B00965C50 /* img_data.html */,
+				A6D82A5117A75F1200965C50 /* gallery.html */,
+				A6D82A4F17A5F89C00965C50 /* pkgd.min.js */,
+				A6D82A4617A48B7B00965C50 /* photoSearch.html */,
+				A6D82A4317A4804200965C50 /* photoDetail.html */,
+				A6D82A4217A47FFA00965C50 /* photoBig.html */,
+				A6D82A4117A47FED00965C50 /* photoBio.html */,
+				A6D82A3F17A47EBF00965C50 /* photoMain.html */,
+				A6D82A3B17A47D7500965C50 /* photoHeader.html */,
+				A6D82A3717A47D2700965C50 /* photofinder.html */,
+				A6D82A3A17A47D5400965C50 /* photofinder */,
 			);
+			sourceTree = "<group>";
+		};
+		A6D82A3A17A47D5400965C50 /* photofinder */ = {
+			isa = PBXGroup;
+			children = (
+				A6D82A6917A793A200965C50 /* wedding19.png */,
+				A6D82A5C17A7787C00965C50 /* wedding9.png */,
+				A6D82A5D17A7787C00965C50 /* wedding10.png */,
+				A6D82A5E17A7787C00965C50 /* wedding11.png */,
+				A6D82A5F17A7787C00965C50 /* wedding12.png */,
+				A6D82A6017A7787C00965C50 /* wedding13.png */,
+				A6D82A6117A7787C00965C50 /* wedding14.png */,
+				A6D82A6217A7787C00965C50 /* wedding15.png */,
+				A6D82A6317A7787C00965C50 /* wedding16.png */,
+				A6D82A6417A7787C00965C50 /* wedding17.png */,
+				A6D82A6517A7787C00965C50 /* wedding18.png */,
+				A6D82A5017A61A3400965C50 /* profilePic.png */,
+				A6D82A4717A5F5D200965C50 /* wedding1.png */,
+				A6D82A4817A5F5D200965C50 /* wedding2.png */,
+				A6D82A4917A5F5D200965C50 /* wedding3.png */,
+				A6D82A4A17A5F5D200965C50 /* wedding4.png */,
+				A6D82A4B17A5F5D200965C50 /* wedding5.png */,
+				A6D82A4C17A5F5D200965C50 /* wedding6.png */,
+				A6D82A4D17A5F5D200965C50 /* wedding7.png */,
+				A6D82A4E17A5F5D200965C50 /* wedding8.png */,
+				A6D82A4517A487A200965C50 /* logo.png */,
+				A6D82A4417A481A500965C50 /* sample.png */,
+				A6D82A3C17A47DF000965C50 /* shutterhype_logo.png */,
+			);
+			name = photofinder;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */

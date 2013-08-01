@@ -1,0 +1,105 @@
+<html>
+<head>
+    <link rel="stylesheet" href="examples.css" />
+    
+    <title>search</title>
+    <script type="text/javascript">
+        
+        function Change()
+        {
+            var sel = document.getElementById("selectBox");
+            
+            if( sel.value == "1" ) {
+                sel.style.background="#92CCC0";
+                sel.style.color ="#FFFFFF";
+            }
+            else if( sel.value == "2" ) {
+                sel.style.background="#92CCC0";
+                sel.style.color ="white";
+            }
+            else if( sel.value == "3" ) {
+                sel.style.background="#92CCC0";
+                sel.style.color ="#FFFFFF";
+            }
+            else if( sel.value == "4" ) {
+                sel.style.background="#92CCC0";
+                sel.style.color ="#FFFFFF";
+            }
+            else if(sel.value == "5"){
+                sel.style.background="#92CCC0";
+                sel.style.color = "#FFFFFF"
+            }
+            else {
+                sel.style.background="#92CCC0";
+                sel.style.color = "#FFFFFF"
+            }
+        }
+    </script>
+    
+</head>
+
+<body bgcolor=#92CCC0>
+    <!-- form method="post" align="center" valign="center">
+        <select name="location" onchange="Change()" id="selectBox" -->
+    <div class="styled-select" align="center">
+        <select>
+            <option value="0">LOCATION &nbsp; </option>
+            <option value="1">Boulder</option>
+            <option value="2">Denver</option>
+            <option value="3">New York</option>
+
+        </select>
+        &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; 
+        <select>
+            <option value="0">PRICE RANGE</option>
+            <option value="1">$0 ~ $500</option>
+            <option value="2">$500 ~ %1,000</option>
+            <option value="3">$1,000 ~ $1,500</option>
+            <option value="4">$1,500 ~ %2,000</option>
+            <option value="5">$2,000 ~ $3,000</option>
+            <option value="6">$3,000 +</option>
+        </select>
+    </div>
+    
+    <div id="select">
+        <div id="content">
+            <div id="head">
+                <h1>Mailbox</h1>
+                
+            </div>
+            <div id="list">
+                <div>
+                    <span class="entypo-box"></span>
+                    <a href="">Inbox</a>
+                    <label for="">112</label>
+                </div>
+                <div>
+                    <span class="entypo-star"></span>
+                    <a href="">Starred</a>
+                    <label for="">4</label>
+                </div>
+                <div>
+                    <span class="entypo-paper-plane"></span>
+                    <a href="">Sent</a>
+                    <label for="">6</label>
+                </div>
+                <div>
+                    <span class="entypo-flag"></span>
+                    <a href="">Flagged</a>
+                    <label for="">7</label>
+                </div>
+                <div> 
+                    <span class="entypo-trash"></span>
+                    <a href="">Deleted</a>  
+                    <label for="">5</label>
+                </div> 
+                <div>
+                    <a href="">More</a>
+                    <span class="entypo-down-dir"></span>
+                </div>
+            </div> 
+        </div> 
+    </div>
+    <!--/form -->
+</body>
+</html>
