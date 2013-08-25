@@ -46,12 +46,20 @@
 		A6D82A6417A7787C00965C50 /* wedding17.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = wedding17.png; path = photofinder/wedding17.png; sourceTree = "<group>"; };
 		A6D82A6517A7787C00965C50 /* wedding18.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = wedding18.png; path = photofinder/wedding18.png; sourceTree = "<group>"; };
 		A6D82A6917A793A200965C50 /* wedding19.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = wedding19.png; path = photofinder/wedding19.png; sourceTree = "<group>"; };
+		A6D82A6A17AB764800965C50 /* wedding1.html */ = {isa = PBXFileReference; lastKnownFileType = text.html; path = wedding1.html; sourceTree = "<group>"; };
+		A6D82A6B17AB7A2A00965C50 /* wedding2.html */ = {isa = PBXFileReference; lastKnownFileType = text.html; path = wedding2.html; sourceTree = "<group>"; };
+		A6D82A6C17AB7A3200965C50 /* wedding3.html */ = {isa = PBXFileReference; lastKnownFileType = text.html; path = wedding3.html; sourceTree = "<group>"; };
+		A6D82A6D17AB7A3D00965C50 /* wedding4.html */ = {isa = PBXFileReference; lastKnownFileType = text.html; path = wedding4.html; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXGroup section */
 		A6D82A3017A47CF700965C50 = {
 			isa = PBXGroup;
 			children = (
+				A6D82A6D17AB7A3D00965C50 /* wedding4.html */,
+				A6D82A6C17AB7A3200965C50 /* wedding3.html */,
+				A6D82A6B17AB7A2A00965C50 /* wedding2.html */,
+				A6D82A6A17AB764800965C50 /* wedding1.html */,
 				A6D82A5B17A7758A00965C50 /* masonry.js */,
 				A6D82A5A17A773C000965C50 /* basic-layout.js */,
 				A6D82A5917A76E8A00965C50 /* photoCascade.html */,
